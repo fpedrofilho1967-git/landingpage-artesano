@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artesano — Estúdio de objetos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero" id="inicio">
+    <div class="hero__media">
+      <img class="hero__img" src="img/hero-atelie.png" alt="Artesão trabalhando o barro em um torno de cerâmica no ateliê">
+    </div>
+    <div class="hero__content">
+      <h1 class="hero__title">Artesano</h1>
+      <p class="hero__words">
+        <span class="hero__line" aria-hidden="true"></span>
+        <span class="hero__word">Matéria</span>
+        <span class="hero__bar" aria-hidden="true">|</span>
+        <span class="hero__word">Luz</span>
+        <span class="hero__bar" aria-hidden="true">|</span>
+        <span class="hero__word">Espaço</span>
+        <span class="hero__line" aria-hidden="true"></span>
+      </p>
+      <p class="hero__edition">Estúdio de objetos &nbsp;|&nbsp; Edição de inverno</p>
+      <p class="hero__year">— 2026 —</p>
+    </div>
+  </header>
+
+  <nav class="menu" aria-label="Navegação principal">
+    <ul class="menu__list">
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#estudio">Estúdio</a></li>
+      <li><a href="#colecoes">Coleções</a></li>
+      <li class="menu__brand"><a href="#inicio" aria-label="Voltar ao início">A</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#depoimento">Depoimento</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section class="estudio" id="estudio">
+      <div class="wrap">
+        <h2>Fazemos objetos que duram mais que nós.</h2>
+        <span class="dash" aria-hidden="true"></span>
+        <p class="lede">
+          Um estúdio pequeno em uma rua sem saída: barro, madeira e vidro
+          trabalhados devagar, em edições curtas. Cada peça sai numerada,
+          assinada e com o nome de quem a fez no verso.
+        </p>
+        <ul class="steps">
+          <li class="step">
+            <img class="step__icon" src="img/icone-materia.svg" alt="" width="34" height="34">
+            <span class="dash dash--small" aria-hidden="true"></span>
+            <span class="step__name">Matéria</span>
+          </li>
+          <li class="step">
+            <img class="step__icon" src="img/icone-desenho.svg" alt="" width="34" height="34">
+            <span class="dash dash--small" aria-hidden="true"></span>
+            <span class="step__name">Desenho</span>
+          </li>
+          <li class="step">
+            <img class="step__icon" src="img/icone-forma.svg" alt="" width="34" height="34">
+            <span class="dash dash--small" aria-hidden="true"></span>
+            <span class="step__name">Fôrma</span>
+          </li>
+          <li class="step">
+            <img class="step__icon" src="img/icone-entrega.svg" alt="" width="34" height="34">
+            <span class="dash dash--small" aria-hidden="true"></span>
+            <span class="step__name">Entrega</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="colecoes" id="colecoes">
+      <div class="wrap">
+        <h2>Quatro coleções, uma por estação</h2>
+        <span class="dash" aria-hidden="true"></span>
+
+        <p class="colecoes__label">Edições abertas</p>
+
+        <div class="table-scroll">
+          <table>
+            <caption class="visually-hidden">Coleções e edições abertas no momento</caption>
+            <thead>
+              <tr>
+                <th scope="col">Coleção</th>
+                <th scope="col">Peça</th>
+                <th scope="col">Edição</th>
+                <th scope="col">Prazo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Névoa</td>
+                <td>Vaso baixo</td>
+                <td>40 un.</td>
+                <td>3 semanas</td>
+              </tr>
+              <tr>
+                <td>Névoa</td>
+                <td>Prato fundo</td>
+                <td>60 un.</td>
+                <td>3 semanas</td>
+              </tr>
+              <tr>
+                <td>Sal</td>
+                <td>Luminária de mesa</td>
+                <td>25 un.</td>
+                <td>5 semanas</td>
+              </tr>
+              <tr>
+                <td>Sal</td>
+                <td>Espelho oval</td>
+                <td>18 un.</td>
+                <td>6 semanas</td>
+              </tr>
+              <tr>
+                <td>Ferro</td>
+                <td>Banco de canto</td>
+                <td>12 un.</td>
+                <td>8 semanas</td>
+              </tr>
+              <tr>
+                <td>Ferro</td>
+                <td>Cabideiro alto</td>
+                <td>20 un.</td>
+                <td>7 semanas</td>
+              </tr>
+              <tr>
+                <td>Vento</td>
+                <td>Móbile de vidro</td>
+                <td>30 un.</td>
+                <td>4 semanas</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="colecoes__note">
+          Abrimos as encomendas quatro vezes por ano e fechamos quando a
+          edição acaba. Nada é refeito depois: o molde é quebrado e a
+          coleção seguinte começa do papel em branco.
+        </p>
+        <p class="colecoes__note">
+          Os prazos acima contam a partir da confirmação. O frete é
+          combinado peça a peça, porque nenhuma delas viaja igual.
+        </p>
+
+        <a class="btn btn--outline" href="#contato">Pedir o catálogo</a>
+      </div>
+    </section>
+
+    <section class="depoimento" id="depoimento">
+      <div class="wrap">
+        <blockquote class="depoimento__quote">
+          <p>
+            “Comprei uma peça pensando em decorar uma prateleira. Ela virou
+            a coisa que eu pego todos os dias, e é a única casa que eu
+            saberia descrever de olhos fechados.”
+          </p>
+          <footer class="depoimento__signature">— Marina Álvares, coleção Névoa</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="galeria" id="galeria">
+      <div class="wrap">
+        <h2>Peças recentes</h2>
+        <span class="dash" aria-hidden="true"></span>
+
+        <ul class="gallery">
+          <li class="gallery__card">
+            <figure>
+              <img class="gallery__img" src="img/peca-tigela.svg" alt="Tigela funda de grês na cor branca">
+              <figcaption>
+                <span class="gallery__name">Tigela funda</span>
+                <span class="gallery__material">Névoa · Grês</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="gallery__card">
+            <figure>
+              <img class="gallery__img" src="img/peca-assento.svg" alt="Assento de três pés em ferro e madeira">
+              <figcaption>
+                <span class="gallery__name">Assento de três pés</span>
+                <span class="gallery__material">Ferro · Madeira</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="gallery__card">
+            <figure>
+              <img class="gallery__img" src="img/peca-secagem.svg" alt="Tigelas de cerâmica em secagem no ateliê">
+              <figcaption>
+                <span class="gallery__name">Tigelas em secagem</span>
+                <span class="gallery__material">Névoa · Ateliê</span>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <div class="wrap">
+        <h2>Peça o catálogo</h2>
+        <span class="dash" aria-hidden="true"></span>
+        <p class="lede">
+          A edição de inverno abre em 14 de setembro. Deixe seu contato e
+          enviamos o catálogo impresso, com as medidas e os preços de cada
+          peça.
+        </p>
+
+        <form class="form" action="#" method="post">
+          <div class="field-row">
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="voce@exemplo.com" required>
+            </div>
+          </div>
+
+          <fieldset class="field field--radio">
+            <legend>O que te interessa</legend>
+            <label class="radio">
+              <input type="radio" name="interesse" value="catalogo" checked>
+              <span>Só o catálogo</span>
+            </label>
+            <label class="radio">
+              <input type="radio" name="interesse" value="peca">
+              <span>Uma peça específica</span>
+            </label>
+            <label class="radio">
+              <input type="radio" name="interesse" value="encomenda">
+              <span>Encomenda sob medida</span>
+            </label>
+          </fieldset>
+
+          <div class="field">
+            <label for="recado">Recado (opcional)</label>
+            <textarea id="recado" name="recado" placeholder="Uma frase basta" rows="4"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary">Enviar pedido</button>
+          <p class="form-note">Escrevemos de volta em até dois dias úteis.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p class="rodape__brand">Artesano</p>
+    <p class="rodape__signature">Estúdio de objetos &nbsp;·&nbsp; desde 2019</p>
+    <a class="rodape__top" href="#inicio">Voltar ao topo</a>
+  </footer>
+
+</body>
+</html>
